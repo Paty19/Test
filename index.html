@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+  <form>
+
+    <h1 class="go">Ваш тип характера</h1>
+
+    <div class="question1">
+      <label>Вопрос 1.Вы любите читать книги?</label> <br>
+      <input class="test" type="radio" name="question1"id="answer1"> Нет<br>
+      <input class="test" type="radio" name="question1">Да
+    </div>
+
+    <div class="question2">
+    <label>Вопрос 2. Как Вы сходитесь с людьми?</label><br>
+    <input type="radio" name="question2" id="answer2">Быстро<br>
+    <input type="radio" name="question2" >Медленно 
+    </div>
+
+    <div class="question3">
+      <label>Вопрос 3. Считаете ли Вы себя обидчивым?</label><br>
+    <input type="radio" name="question3" > Да <br>
+   <input type="radio" name="question3" id="answer3">Нет
+    </div>
+
+    <div class="question4">
+      <label>Вопрос 4. Каким Вы себя считаете?</label><br>
+    <input type="radio" name="question4" >Молчаливым<br>
+   <input type="radio" name="question4" id="answer4">Разговорчивым
+   </div>
+
+    <div class="question5">
+    <label>Вопрос 5. Что Вы предпочитаете?</label><br>
+    <input type="radio" name="question5" >Немного  друзей<br>
+   <input type="radio" name="question5" id="answer5">Большую  компанию 
+    </div>
+
+ 
+    <div class="question6">
+      <label>Вопрос 6. Откровенны ли Вы или скрытны?</label><br>
+    <input type="radio" name="question6" id="answer6" >Откровенен<br>
+   <input type="radio" name="question6">Скрытен
+    </div>
+
+    <div class="question7">
+      <label>Вопрос 7. Часто ли Вы недовольны собой?</label><br>
+    <input type="radio" name="question7" > Да<br>
+   <input type="radio" name="question7" id="answer7"> Нет
+    </div>
+
+    <div class="question8">
+      <label>Вопрос 8. Анализируете ли Вы свои переживания?</label><br>
+    <input type="radio" name="question8" > Да<br>
+   <input type="radio" name="question8" id="answer8"> Нет
+    </div>
+
+    <div class="question9">
+      <label>Вопрос 9. Легко ли меняется Ваше настроение?</label><br>
+    <input type="radio" name="question9"  id="answer9"> Да<br>
+   <input type="radio" name="question9" > Нет
+    </div>
+
+    <div class="question10">
+      <label>Вопрос 10. Вы беспокоитесь о возможных неприятностях?</label><br>
+    <input type="radio" name="question10" id="answer10"> Редко<br>
+   <input type="radio" name="question10" > Часто
+    </div>
+
+    <button type="submit" class="btn pressed-button" data-type="line">Показать результат</button>
+    <p id="show"></p>
+
+    </form>  
+
+
+
+   
+
+
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="index.js"></script>  
+</body>
+</html>
+
+
+
+
